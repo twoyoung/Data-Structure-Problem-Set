@@ -1,5 +1,6 @@
-/* 2.16 Pointer la and lb point to the first node of two single linked list respectively. The algorithm below deletes len nodes from the i node
- * beginning at the ith node from list la and inserts them into list lb before the jth node. Is the algorithm correct? If not correct it.
+/* 2.16 Pointer la and lb point to the first node of two single linked list respectively. The algorithm below deletes
+ * len nodes beginning at the ith node from list la and inserts them into list lb before the jth node. Is the algorithm
+ * correct? If not correct it.
  * Status DeleteAndInsertSub(LinkedList la,LinkedList lb,int i,int j,int len){
  *    if(i < 0 || j < 0 || len < 0) return INFEASIBLE;
  *    p = la; k = 1;
